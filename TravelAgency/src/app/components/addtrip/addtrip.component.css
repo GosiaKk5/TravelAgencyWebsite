@@ -1,0 +1,50 @@
+
+.main-container{
+    width:70%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0px 10px;
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0.656);
+    color:white;
+    border: 0px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+}
+
+
+/*Edyting trip*/
+.trip{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.trip div{
+    width: fit-content;
+}
+
+.edit-option span{
+    margin-left: 10px;
+}
+
+.remove-trip{
+    cursor: pointer;
+}
+
+.edit-trip{
+    cursor: pointer;
+}

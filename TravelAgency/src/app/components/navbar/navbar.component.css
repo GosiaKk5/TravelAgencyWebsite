@@ -1,0 +1,49 @@
+nav a.active {
+    background-color: rgba(255, 255, 255, 0.197);;
+    
+}
+
+nav{
+    justify-content: space-between;
+    display: flex;
+    background-color: rgba(11, 37, 113, 0.922);
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    color:  rgba(255, 255, 255, 0.878);
+    padding: 15px 25px;
+    display: inline-block;
+}
+
+.head{
+    text-align: center;
+    background-color:rgba(203, 57, 27, 0.823);
+    
+    padding: 5px
+}
+
+.log{
+    justify-self: right;
+   
+}
+
+@media only screen and (max-width: 1050px) {
+   nav{
+        display: flexbox;
+        flex-direction: column;
+   }
+   .menu{
+    text-align: center;
+   }
+   .log{
+    text-align: center;
+   }
+   nav a{
+    text-decoration: none;
+    color:  rgba(255, 255, 255, 0.878);
+    padding: 15px 10px;
+    display: inline-block;
+}
+  }
+
